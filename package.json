@@ -1,3 +1,25 @@
 {
-  "version": "0.0.0"
+  "name": "@sss/sss-guis-smart-widgets-common",
+  "version": "0.1.0",
+  "description": "Shared event types and timer utilities for SSS smart widgets",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src/**/*.ts",
+    "!src/**/*.test.ts"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "Bradley Marshall",
+  "license": "MIT",
+  "devDependencies": {
+    "@sss/sss-guis-eslint": "github:bradley499/sss-guis-eslint",
+    "eslint": "^9.0.0",
+    "jiti": "^2.7.0",
+    "typescript": "^6.0.3"
+  }
 }
